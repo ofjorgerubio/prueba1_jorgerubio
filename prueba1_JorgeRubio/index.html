@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>BitBank - Crypto Currency</title>
+<link href="img/favicon.ico" rel="icon">
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+<link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">
+<link href="css/bootstrap-custom.css" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet">
+
+
+</head>
+
+<body data-spy="scroll" data-target=".navbar">
+    
+	<header class="header-area">
+		<div class="container">
+			
+			<nav class="navbar navbar-expand-lg navbar-light bg-light">
+			  
+				<a class="navbar-brand" href="index.html">
+					<img src="img/swape-logo-dark.png" class="img-fluid d-block" alt="logo en blanco">
+				</a>
+				
+				
+			  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+				<i class="fas fa-bars"></i>				
+			  </button>
+
+			  <div class="collapse navbar-collapse" id="navbar">
+				<ul class="navbar-nav ml-auto">
+				  <li class="nav-item active">
+					<a class="nav-link" href="#">Home</a>
+				  </li>
+				  <li class="nav-item">
+					<a class="nav-link" href="#services">Features</a>
+				  </li>
+				  <li class="nav-item">
+					<a class="nav-link" href="#about">Why</a>
+				  </li>
+				  <li class="nav-item">
+					<a class="nav-link" href="#how">Screenshots</a>
+				  </li>
+				  <li class="nav-item">
+					<a class="nav-link" href="#price">Testimonials</a>
+				  </li>
+				  <li class="nav-item">
+					<a class="nav-link" href="#faq">Contacts</a>
+				  </li>
+				</ul>
+
+			  </div>
+			</nav>
+			
+		</div>
+	</header>
+   
+		<section id="home">
+   		<div class="container">
+   			<div class="row">
+   				<article class="col-lg-6 col-sm-12">
+					<h5 class="subtitulo">Beautiful & modern app theme</h5>
+			      <h1 class="titulo"> I'm Swape</h1>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+					<a href="#" class="btn btn-primary">GET STARTED</a>
+                </article>
+   				<article class="col-lg-6 col-sm-12">
+   					<img src="img/iphone_home2.png" class="img-fluid">
+   				</article>
+   			</div>
+   		</div>
+   	</section>
+	
+ 
+    
+	<section id="Features" class="section">
+		
+	<i class="icon ion-md-easel"></i>
+			
+			<div class="row">
+				<article class="col-lg-4 col-sm-12 col-12">
+					<img src="img/phone2-1.png" class="img-fluid">
+				</article>
+				<article class="col-lg-4 col-sm-12 col-12">
+					<div class="info-service">
+		
+					</div>
+				</article>
+				<article class="col-lg-4 col-sm-12 col-12">
+					<div class="info-service">
+						
+					</div>
+				</article>
+			</div>			
+		</div>
+	</section>
+   	
+   	
+
+   	
+   	<footer>
+   		<div class="container">
+   			<p>Jorge A.Rubio </p>
+   			<p>11541178</p>
+   		</div>
+   	</footer>
+   	
+   	
+    
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+	<script src="js/owl.carousel.min.js"></script>
+	<script src="js/jquery.easing.min.js"></script>
+	<script src="js/jquery.nav.js"></script>
+	<script src="js/wow.min.js"></script>
+	<script>
+        new WOW().init();
+	</script>
+    <script>
+		$(function() {
+			$(window).on('scroll', function () {
+				if ($(window).scrollTop() > 48) {
+					$('.header-area').addClass('sticky slideInDown');
+				} else {
+					$('.header-area').removeClass('sticky slideInDown');
+				}
+			});
+			
+			$('#navbar').onePageNav({
+				currentClass: 'active',
+				scrollSpeed: 1000,
+				easing: 'easeOutQuad'
+        	});
+			
+			
+			
+		});
+	</script>
+</body>
+
+</html>
